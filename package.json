@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-hw-01-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaVEA/goit-node-hw-01-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaVEA/goit-node-hw-01-cli/issues"
+  },
+  "homepage": "https://github.com/EkaterinaVEA/goit-node-hw-01-cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "nanoid": "^3.1.30"
+  }
+}
